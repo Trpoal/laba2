@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="245.0" prefWidth="302.0" style="-fx-background-color: #E0FFFF; -fx-border-color: #008080;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MenuController">
+   <children>
+      <Label fx:id="L1" alignment="TOP_CENTER" layoutX="2.0" layoutY="14.0" prefHeight="52.0" prefWidth="300.0" text="Проверка таблицы умножения" textAlignment="CENTER" textFill="#5a3535" wrapText="true">
+         <font>
+            <Font name="Impact" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="but2" layoutX="33.0" layoutY="110.0" mnemonicParsing="false" onAction="#choose" prefHeight="25.0" prefWidth="237.0" style="-fx-background-color: #66CDAA; -fx-border-color: #008080;" text="Настройка параметров (для учителей)" textFill="#5a3535">
+         <font>
+            <Font name="Georgia" size="12.0" />
+         </font></Button>
+      <Button fx:id="but1" contentDisplay="TOP" layoutX="34.0" layoutY="74.0" mnemonicParsing="false" onAction="#choose" prefHeight="25.0" prefWidth="237.0" style="-fx-background-color: #66CDAA; -fx-border-color: #008080;" text="Начать проверку" textFill="#5a3535" textOverrun="CLIP">
+         <font>
+            <Font name="Georgia" size="12.0" />
+         </font></Button>
+      <Button fx:id="but3" layoutX="33.0" layoutY="186.0" mnemonicParsing="false" onAction="#choose" prefHeight="25.0" prefWidth="237.0" style="-fx-background-color: #66CDAA; -fx-border-color: #008080;" text="Выход" textFill="#5a3535">
+         <font>
+            <Font name="Georgia" size="12.0" />
+         </font></Button>
+      <Button fx:id="butRes" contentDisplay="TOP" disable="true" layoutX="33.0" layoutY="147.0" mnemonicParsing="false" onAction="#choose" prefHeight="25.0" prefWidth="237.0" style="-fx-background-color: #66CDAA; -fx-border-color: #008080;" text="Результаты" textFill="#5a3535" textOverrun="CLIP">
+         <font>
+            <Font name="Georgia" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

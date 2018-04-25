@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="326.0" prefWidth="234.0" style="-fx-background-color: #E0FFFF; -fx-border-color: #008080;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.FrWController">
+   <children>
+      <TextField fx:id="box1" layoutX="41.0" layoutY="175.0" visible="false" />
+      <Label fx:id="que" layoutX="61.0" layoutY="53.0" prefHeight="87.0" prefWidth="118.0" textAlignment="CENTER" textFill="#5a3535">
+         <font>
+            <Font name="Impact" size="38.0" />
+         </font></Label>
+      <Button fx:id="answer" layoutX="83.0" layoutY="241.0" mnemonicParsing="false" onAction="#enterText" style="-fx-background-color: #66CDAA; -fx-border-color: #008080;" text="Ответить" visible="false" />
+      <Label fx:id="number" layoutX="176.0" layoutY="63.0" textFill="#5a3535" visible="false">
+         <font>
+            <Font name="Impact" size="12.0" />
+         </font></Label>
+      <Button fx:id="st" layoutX="46.0" layoutY="110.0" mnemonicParsing="false" onAction="#start" prefHeight="106.0" prefWidth="142.0" style="-fx-background-color: #66CDAA; -fx-border-color: #008080;" text="Начать" visible="false">
+         <font>
+            <Font name="Georgia" size="28.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="162.0" layoutY="287.0" mnemonicParsing="false" onAction="#back" style="-fx-background-color: #66CDAA; -fx-border-color: #008080;" text="Назад" visible="false">
+         <font>
+            <Font name="Georgia" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="res" layoutX="28.0" layoutY="80.0" text="ВАШИ РЕЗИКИ" textFill="#5a3535" visible="false">
+         <font>
+            <Font name="Impact" size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="mis" layoutX="61.0" layoutY="241.0" mnemonicParsing="false" onAction="#mistake" style="-fx-background-color: #66CDAA; -fx-border-color: #008080;" text="Показать ошибки" visible="false">
+         <font>
+            <Font name="Georgia" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="nameLb" layoutX="30.0" layoutY="66.0" text="Введите Ваше имя">
+         <font>
+            <Font name="Impact" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameBox" layoutX="30.0" layoutY="140.0" />
+      <Button fx:id="nameBut" layoutX="185.0" layoutY="287.0" mnemonicParsing="false" onAction="#getName" style="-fx-background-color: #66CDAA; -fx-border-color: #008080;" text="Ok">
+         <font>
+            <Font name="Georgia" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

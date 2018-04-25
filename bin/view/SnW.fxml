@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="315.0" prefWidth="460.0" style="-fx-background-color: #E0FFFF; -fx-border-color: #008080;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SnWController">
+   <children>
+      <Label layoutX="47.0" layoutY="40.0" text="Количество вопросов:" textFill="#5a3535">
+         <font>
+            <Font name="Impact" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="boxAns" layoutX="47.0" layoutY="78.0" prefHeight="25.0" prefWidth="39.0" text="10" />
+      <Label layoutX="47.0" layoutY="118.0" text="Процент для оценки &quot;5&quot;:" textFill="#5a3535">
+         <font>
+            <Font name="Impact" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="box5" layoutX="47.0" layoutY="161.0" prefHeight="25.0" prefWidth="39.0" text="85" />
+      <Label layoutX="47.0" layoutY="210.0" text="Процент для оценки &quot;4&quot;:" textFill="#5a3535">
+         <font>
+            <Font name="Impact" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="box4" layoutX="47.0" layoutY="253.0" prefHeight="25.0" prefWidth="39.0" text="70" />
+      <Label layoutX="242.0" layoutY="118.0" text="Процент для оценки &quot;3&quot;:" textFill="#5a3535">
+         <font>
+            <Font name="Impact" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="box3" layoutX="240.0" layoutY="162.0" prefHeight="25.0" prefWidth="39.0" text="50" />
+      <Button fx:id="butSet" layoutX="306.0" layoutY="278.0" mnemonicParsing="false" onAction="#setS" style="-fx-background-color: #66CDAA; -fx-border-color: #008080;" text="Сохранить настройки" AnchorPane.bottomAnchor="12.0" AnchorPane.rightAnchor="10.0" />
+      <Button fx:id="back" layoutX="242.0" layoutY="279.0" mnemonicParsing="false" onAction="#back" style="-fx-background-color: #66CDAA; -fx-border-color: #008080;" text="Назад" AnchorPane.bottomAnchor="11.0" AnchorPane.rightAnchor="154.8125" />
+      <Label fx:id="vl1" layoutX="86.0" layoutY="74.0" prefHeight="25.0" prefWidth="10.0" text="!" textFill="#f50000" visible="false">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="vl2" layoutX="86.0" layoutY="157.0" prefHeight="25.0" prefWidth="10.0" text="!" textFill="#f50000" visible="false">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="vl3" layoutX="86.0" layoutY="249.0" prefHeight="25.0" prefWidth="10.0" text="!" textFill="#f50000" visible="false">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="vl4" layoutX="279.0" layoutY="158.0" prefHeight="25.0" prefWidth="10.0" text="!" textFill="#f50000" visible="false">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="240.0" layoutY="17.0" prefHeight="67.0" prefWidth="207.0" text="Параметры оценивания" textFill="#5a3535" underline="true">
+         <font>
+            <Font name="Impact" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
